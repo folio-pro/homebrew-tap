@@ -1,8 +1,8 @@
 cask "kdashboard" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.9.1"
-  sha256 arm: "08158f5ccd8f7684fa53918dde9d6301ca2560cc3d5b43bb528bed38a3663dbd", intel: "7dfaa283e7bc2ca587bf4726da2ba95fd759b3d3c947782784ed180be65637ab"
+  version "0.10.0"
+  sha256 arm: "e4e253488cfb758a94b96a8c04ce09256f82fff4a1aaff5f880871ed120db52b", intel: "a5a2aa2ab7eb6e0490be6026148a35016692fb0e9f5bc1e7b1bcaeff1083e167"
 
   url "https://github.com/folio-pro/kdashboard/releases/download/v#{version}/kdashboard-#{version}-#{arch}.dmg"
   name "Kdashboard"
